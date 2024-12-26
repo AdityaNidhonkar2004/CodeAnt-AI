@@ -5,7 +5,7 @@ import Vector from "../../utils/Vector.png";
 
 const LeftSection = () => {
   return (
-    <div className="flex-1 bg-gray-100 hidden md:flex flex-col items-center justify-center px-4 md:px-16 py-6">
+    <div className="flex-1 bg-gray-100 hidden lg:flex flex-col items-center justify-center px-4 md:px-16 py-6">
         <div className="bg-white shadow-2xl rounded-3xl relative z-0">
           <div className="flex justify-start items-center p-3 my-2 mr-36">
            <img src={CodeAntLogo}></img>
@@ -78,7 +78,7 @@ const LeftSection = () => {
             <p className="text-[32px] font-bold ">500K+</p>
           </div>
         </div>
-        <div className="mt-48">
+        <div className="mt-80 xl:mt-48">
           <img src={BgCodeAntImage} className="absolute bottom-0 left-0"></img>
         </div>
       </div>
